@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link id="pgstyle" rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_green-green.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <title>Brasil</title>
+    <style>
+     
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .demo-card-wide.mdl-card {
+        width: 512px;
+      }
+      .demo-card-wide > .mdl-card__title {
+        color: #fff;
+        height: 176px;
+        background: url('../assets/demos/welcome_card.jpg') center / cover;
+      }
+      .demo-card-wide > .mdl-card__menu {
+        color: #fff;
+      }
+
+    </style>
+</head>
+<body>
+<!-- Uses a header that scrolls with the text, rather than staying
+  locked at the top -->
+  <div class="mdl-layout mdl-js-layout" style="height: 100%;">
+    <header class="mdl-layout__header mdl-layout__header--scroll">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+       <a href="index.html">
+           <img src="https://www.graphicdesignforum.com/uploads/default/original/2X/9/9e70c5cacb02355c7d6ee1fcc20deff7e9ec4b15.png" width="50">
+       </a>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer" style="margin-left: 100px;">
+            <form action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="display: flex; width: 500px;">
+                  <input class="mdl-textfield__input" type="text" id="sample3">
+                  <label class="mdl-textfield__label" for="sample3">Text...</label>
+                  <a href="pesquisa.html"><span class="material-icons" style="cursor: pointer; color: black;">search</span>
+                  </a>
+                </div>
+            </form>
+        </div>
+       
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="https://www.icqmail.com/" target="_blank">e-mail</a>
+          <a class="mdl-navigation__link" href="https://unsplash.com/s/photos/capybara" target="_blank">Imagens</a>
+          <a class="mdl-navigation__link" href=""><span class="material-icons">
+            view_headline
+            </span></a>
+          <a class="mdl-navigation__link" href="https://www.instagram.com/marcondesequandos/" target="_blank">
+            <img src="Images\minha-foto.jpg" width="50" style="border-radius: 100%;">
+          </a>
+        </nav>
+      </div>
+    </header>
+    <!-- Main -->
+    <main class="demo-card-wide mdl-card mdl-shadow--2dp" style="align-items: center; margin: auto;">
+      <div class="mdl-card__title">
+        <img src="Images\vira-lata-caramelo2.jpg">
+      </div>
+      <div class="mdl-card__supporting-text" style="color: white; text-align: justify; background-color: rgba(34, 34, 37, 0.562);">     
+        Brasil, o maior país da america do sul, tendo como seus extremos o município Oiapoque (PA) na região norte e ao sul o município de Chuí (RS) é composto por
+        vinte e seis estados mais Distrito Federal, com uma das maiores misturas de raças e vegetações. O país do samba, do futebol e
+        acima de tudo da criatividade, diversidade e alegria. Composto de uma diversa fauna tendo belos exemplares de animais como: Boto-cor-de-rosa, Mico-leão-dourado,
+        Arara-azul, Onça-pintada, Sucuri, Capivara, entre outros. No entanto, nos cenários urbanos, é típico observar a presença dos simpáticos cães vira-lata-caramelo.
+    
+      </div>
+      <div class="mdl-card__actions mdl-card--border">
+        <a href="https://mundoeducacao.uol.com.br/geografia/brasil.htm" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="color: rgb(29, 26, 26);">
+          Descubra o Brasil
+        </a>
+      </div>
+      <div class="mdl-card__menu">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons">share</i>
+        </button>
+      </div>
+       
+
+         
+    </main>          
+        <!-- Footer -->
+    <footer class="mdl-mini-footer">
+        <div style="display: inline;">
+            <div class="mdl-mini-footer__link-section">
+                <a href="brasil.html" style="text-decoration: none; color: white; ">
+                    Brasil
+                </a>
+            </div>
+            <div class="mdl-mini-footer__left-section">
+              <ul class="mdl-mini-footer__link-list">
+                <li><a href="publicidade.html">Publicidade</a></li>
+                <li><a href="negocios.html">Negócios</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#">Como não Funciona</a></li>
+              </ul>
+            </div>
+      </div>        
+      <div class="mdl-mini-footer__right-section" style="transform: translateY(20px);">
+          <ul class="mdl-mini-footer__link-list" style="margin-right: 15px;">
+              <li><a href="privacidade.html">Privacidade</a></li>
+              <li><a href="termos.html">Termos</a></li>
+                <li><a onclick="changePgHREF()" style="cursor: pointer;">Configurações</a></li>
+            </ul>
+        </div>      
+    </footer>
+    </div>
+    <script src="main.js"></script>     
+</body>
+</html>
